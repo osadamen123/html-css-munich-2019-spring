@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: yellowgreen;
+}
+
+h1 {
+    color: red
+}
+
+h2 {
+    color: pink;
+}
+
+p {
+   color: purple;
+}
+
+li {
+    color: brown;
+}
