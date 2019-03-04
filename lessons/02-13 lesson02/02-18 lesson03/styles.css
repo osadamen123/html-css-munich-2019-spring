@@ -1,20 +1,31 @@
 body {
-    background-color: black;
-    color: yellowgreen;
+    background-color: greenyellow;
+    color: white;
+    font-family: 'Sofia';font-size: 22px;
 }
 
 h1 {
-    color: red
+    color: white;
+    font-family: 'Aclonica';font-size: 22px;
 }
 
 h2 {
-    color: pink;
+    color: white;
+    font-family: 'Bangers';font-size: 22px;
 }
 
 p {
-   color: purple;
+   color: white;
 }
 
 li {
-    color: brown;
+    color: white;
+}
+
+img {
+    width: 250px;
+}
+
+a {
+    color: red;
 }

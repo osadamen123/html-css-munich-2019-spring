@@ -1,0 +1,60 @@
+body {
+    background-color: aquamarine;
+}
+
+#division01 {
+    background-color: red;
+}
+
+#division02 {
+    background-color: blue;
+}
+
+#division03 {
+    background-color: greenyellow;
+}
+#my-paragraph {
+    color: white;
+}
+
+#my-paragraph02 {
+    color: green;
+}
+
+img {
+    width: 400px;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+#image01 {
+    width: 300px;
+    /* padding-left: 40px; */
+    /* padding-bottom: 40px; */
+}
+
+#image02 {
+    width: 600px;
+    /* padding-left: 40px; */
+    /* padding-bottom: 40px; */
+    /* margin-right: 20px; */
+}
+
+#image03 {
+    width: 500px;
+    /* padding-left: 40px; */
+    /* padding-bottom: 40px; */
+    /* margin-right: 20px; */
+}
+
+h1 {
+    /* padding-left: 40px; */
+    /* padding-bottom: 40px; */
+    /* margin-right: 40px; */
+}
+
+p {
+    /* padding-left: 40px;
+    padding-bottom: 40px;
+    margin-right:  40px; */
+}
