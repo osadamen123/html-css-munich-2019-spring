@@ -2,6 +2,10 @@ body {
     background-color: aquamarine;
 }
 
+div {
+    margin: 100px;
+}
+
 #division01 {
     background-color: red;
 }
@@ -24,7 +28,6 @@ body {
 img {
     width: 400px;
     padding: 20px;
-    margin-left: 200px;
 }
 
 #image01 {
@@ -37,24 +40,20 @@ img {
     width: 600px;
     /* padding-left: 40px; */
     /* padding-bottom: 40px; */
-    /* margin-right: 20px; */
 }
 
 #image03 {
     width: 500px;
     /* padding-left: 40px; */
     /* padding-bottom: 40px; */
-    /* margin-right: 20px; */
 }
 
 h1 {
     /* padding-left: 40px; */
     /* padding-bottom: 40px; */
-    /* margin-right: 40px; */
 }
 
 p {
     /* padding-left: 40px;
     padding-bottom: 40px;
-    margin-right:  40px; */
 }

@@ -1,0 +1,56 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  
+  #my-id{
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    font-size: 22px;
+    background-color: pink;
+  }
+  
+  .box{
+    margin-top: 50px;
+  }
+
+  .box.grey {
+      color:grey;
+  }
+
+  .box.large {
+      font-family: 'Aclonica';font-size: 30px
+  }
+
+  /* space means child of the element */
+  div .box {
+      color: goldenrod;
+  }
+ 
+  /* applies to DIRECT children */
+  article > p {
+      background-color: red;
+  }
+  
+  /* comma adds styles to BOTH elements*/
+p, div {
+    background-color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+div .box.large {
+    color: brown;
+}
+
+#my-blue {
+    background-color: blue;
+}
+
+#my-file {
+    background-color: pink;
+}

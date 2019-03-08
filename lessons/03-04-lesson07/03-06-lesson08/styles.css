@@ -1,0 +1,54 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  
+  #my-id{
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    font-size: 22px;
+  }
+  
+  .box{
+    margin-top: 50px;
+  }
+
+  .box.blue {
+      color:blue;
+  }
+
+  .box.large {
+      font-family: 'Aclonica';font-size: 30px
+  }
+
+  /* space means child of the element */
+  div .box {
+      color:yellow;
+  }
+ 
+  /* applies to DIRECT children */
+  article > p {
+      background-color: red;
+  }
+  
+  /* comma adds styles to BOTH elements*/
+p, div {
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/* specify what happens if you hover over elements */
+div p:hover {
+    color: purple;
+    font-size: xx-large;
+}
+
+div .box.large {
+    color: brown;
+}
