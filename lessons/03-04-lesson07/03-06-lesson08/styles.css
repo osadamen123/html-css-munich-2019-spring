@@ -18,7 +18,11 @@ p{
   }
 
   .box.blue {
-      color:blue;
+      color: red;
+  }
+
+  .box.blue p:first-child {
+      color: blue;
   }
 
   .box.large {
@@ -28,6 +32,12 @@ p{
   /* space means child of the element */
   div .box {
       color:yellow;
+      background-color: pink;
+  }
+  
+  div .box p {
+    background-color:pink; 
+
   }
  
   /* applies to DIRECT children */
@@ -37,7 +47,7 @@ p{
   
   /* comma adds styles to BOTH elements*/
 p, div {
-    background-color: lightgray;
+    background-color: aqua;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
@@ -49,6 +59,10 @@ div p:hover {
     font-size: xx-large;
 }
 
-div .box.large {
+.box.large {
     color: brown;
+}
+
+body > p {
+    color: rebeccapurple;
 }
