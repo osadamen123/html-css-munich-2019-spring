@@ -27,12 +27,19 @@ p{
 
   /* space means child of the element */
   div .box {
-      color: goldenrod;
+      color: yellow;
+      background-color:pink;
+  }
+
+  div .box p {
+    background-color:pink; 
+
   }
  
+
   /* applies to DIRECT children */
   article > p {
-      background-color: red;
+      background-color:blueviolet;
   }
   
   /* comma adds styles to BOTH elements*/
@@ -45,7 +52,9 @@ p, div {
 
 div .box.large {
     color: brown;
+    background-color: red;
 }
+
 
 #my-blue {
     background-color: blue;
