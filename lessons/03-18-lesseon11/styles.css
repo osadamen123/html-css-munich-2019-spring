@@ -1,0 +1,32 @@
+body {
+    padding: 20px;
+ }
+ 
+ .box {
+    width: 100px;
+    height: 100px;
+    border: 15px solid pink;
+    margin: 10px;
+ }
+ 
+ .rgb {
+     background-color: rgb(255, 0, 0);
+     box-sizing: content-box;
+ }
+ 
+ .hsl {
+    background-color: hsl(219, 74%, 43%);
+ }
+ 
+ .hex {
+     background-color: #1cb7bf
+ }
+ 
+ .rgba {
+     background-color: rgba(255, 9, 0 ,0.5);
+ }
+ 
+ .post {
+    border: 1px solid green;
+    padding-bottom: 30px
+ }
