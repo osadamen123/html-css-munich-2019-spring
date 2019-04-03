@@ -1,5 +1,6 @@
 body {
     padding: 20px;
+    background-color: black
  }
  
  .box {
@@ -10,7 +11,6 @@ body {
  }
  
  .rgb {
-     background-color: rgb(255, 0, 0);
      box-sizing: content-box;
  }
  
@@ -34,4 +34,8 @@ body {
 
 h1 {
     color: greenyellow;
+}
+
+h2 {
+    color: aquamarine;
 }
